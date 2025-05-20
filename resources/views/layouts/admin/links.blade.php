@@ -23,3 +23,8 @@
 <link href="{{asset('admin/src/assets/css/dark/components/list-group.css')}}" rel="stylesheet" type="text/css">
 <link href="{{asset('admin/src/assets/css/dark/dashboard/dash_2.css')}}" rel="stylesheet" type="text/css" />
 <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+
+<!--  BEGIN CUSTOM STYLE FILE  -->
+<link rel="stylesheet" type="text/css" href="{{asset('admin/src/assets/css/light/elements/alert.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('admin/src/assets/css/dark/elements/alert.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('toastr/toastr.min.css')}}">

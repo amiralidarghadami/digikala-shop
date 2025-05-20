@@ -6,5 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Country extends Model
 {
-    //
+    protected $guarded=['id'];
+    public function submit($formData)
+    {
+        Country::query()->create([
+            'name'=>$formData['name']
+        ]);
+    }
 }
