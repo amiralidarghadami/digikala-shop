@@ -28,3 +28,6 @@
 <link rel="stylesheet" type="text/css" href="{{asset('admin/src/assets/css/light/elements/alert.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('admin/src/assets/css/dark/elements/alert.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('toastr/toastr.min.css')}}">
+<!--  BEGIN CUSTOM STYLE FILE  -->
+<link href="{{asset('admin/src/assets/css/light/elements/custom-pagination.css')}}" rel="stylesheet" type="text/css" />
+<link href="{{asset('admin/src/assets/css/dark/elements/custom-pagination.css')}}" rel="stylesheet" type="text/css" />

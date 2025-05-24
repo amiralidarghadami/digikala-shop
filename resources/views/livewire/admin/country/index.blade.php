@@ -100,7 +100,7 @@
                         </tbody>
                     </table>
                 </div>
-
+                {{$countries->links('layouts.admin.pagination')}}
             </div>
         </div>
     </div>
